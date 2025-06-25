@@ -1,0 +1,7 @@
+is_palindrome <- function(num) {
+  return(num == reverse_number(num))
+}
+
+is_palindrome(121)   # TRUE
+is_palindrome(123)   # FALSE
+
