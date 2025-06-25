@@ -1,0 +1,11 @@
+reverse_number <- function(num) {
+  rev <- 0
+  while (num > 0) {
+    digit <- num %% 10
+    rev <- rev * 10 + digit
+    num <- num %/% 10
+  }
+  return(rev)
+}
+
+reverse_number(1234)  # 4321
